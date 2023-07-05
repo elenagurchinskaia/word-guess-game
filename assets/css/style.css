@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  display:flex;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+.main-box{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.main-game{
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.timer-box{
+  width: 200px;
+}
